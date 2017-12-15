@@ -1,0 +1,54 @@
+*{outline: dotted 1px orange;
+  width: }
+
+}
+div .right{
+  float:right;
+  display: block;
+}
+header .header{
+  float:left;
+}
+.left {
+  float:left;
+}
+.left h4{
+  font-size: 35;
+  margin: 0px;
+}
+.left p{
+  margin: 0px;
+  font-size: 12px;
+}
+
+.block{
+  width: 960px;
+  margin: 0 auto;
+}
+main{
+  clear: both;
+  width: 900px;
+  margin: 30px auto;
+}
+header{
+  width: 900px;
+  margin: 30px auto;
+}
+.right img {
+  float:right;
+  display: block;
+}
+.prineter{
+  float:right;
+}
+.h1main{
+  font-size: 30px;
+}
+
+main .mainbox img {
+  float:right;
+}
+main img{
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
