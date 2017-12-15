@@ -1,0 +1,113 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+
+}
+
+
+form {
+  width: 900px;
+  height: 305px;
+  margin: 20px auto;
+  background-image: url( "https://raw.githubusercontent.com/codefellows/seattle-201d29/master/10-chocolate_pizza/lab-assets/list-bg.png");
+  font-size: 20px;
+  line-height: 1.55em;
+  font-family: cursive;
+}
+
+fieldset {
+  width: 300px;
+  float: left;
+}
+
+.form_left {
+  margin: 30px auto;
+  float: left;
+  padding-left: 60px;
+}
+
+.form_right {
+  margin: 30px auto;
+  float: left;
+  padding-left: 60px;
+  /* width: 500px; */
+}
+.pecans {
+  width: 400px;
+}
+.pecans input {
+  float: left;
+  margin-top: 10px;
+}
+.pecans p {
+  padding-left: 35px;
+}
+
+input {
+  margin-right: 10px;
+  /* display: inline-block; */
+}
+
+label {
+  /* display: inline-block; */
+}
+
+.about_author {
+  clear: both;
+}
+
+.right_border {
+
+}
+
+.left_border {
+
+}
+
+footer p {
+
+}
