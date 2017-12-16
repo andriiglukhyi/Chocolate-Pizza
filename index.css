@@ -77,6 +77,18 @@ body{
   margin-right: auto;
 }
 
+article {
+  font-family: times;
+  font-size: 18px;
+  color: #444;
+  margin-top: 30px;
+}
+
+article p {
+  text-indent: 40px;
+  line-height: 1.5em;
+  margin-bottom: 10px;
+}
 form {
   width: 900px;
   height: 305px;
