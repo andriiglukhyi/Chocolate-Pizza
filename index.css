@@ -43,18 +43,27 @@ main{
  main section{
   display: inline-block;
   width: 900px;
+  color: #444;
 }
 main section h1 {
   margin-bottom: 0px;
   font-size: 35px;
   margin-top: 10px;
+  color: #000;
 }
 main section p {
   margin-top: 0px;
   float: left;
+  font-family: sans-serif;
 }
 main section img, span {
   float:right;
+}
+main section span {
+  float: right;
+  font-family: sans-serif;
+  font-size: 10px;
+  margin-bottom: 20px;
 }
 body{
   display: block;
