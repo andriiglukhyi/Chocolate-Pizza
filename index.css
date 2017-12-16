@@ -1,87 +1,66 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* * {
+outline: dotted 1px orange;
+} */
+
+header section{
+  float: left;
+  width: 300px;
+}
+header div{
+float:right;
+display: block;
+margin-top: 10px;
+}
+header section img {
+  float: left;
+}
+header section h4{
+margin-top: 0px;
+margin-bottom: 0px;
+font-size: 30px;
+}
+header section p {
+margin-top: 0px;
+font-size: 10px;
+font-family:
+}
+header {
+margin-top: 30px;
+margin-bottom: 19px;
+width: 900px;
+display: inline-block;
+}
+.midle{
+  margin-top: 10x;
+  margin-bottom: 20px;
+}
+
+main{
+  clear: both;
+  width: 900px;
+  margin: 30px auto;
+}
+ main section{
+  display: inline-block;
+  width: 900px;
+}
+main section h1 {
+  margin-bottom: 0px;
+  font-size: 35px;
+  margin-top: 10px;
+}
+main section p {
+  margin-top: 0px;
+  float: left;
+}
+main section img, span {
+  float:right;
+}
+body{
+  display: block;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 
 form {
   width: 900px;
