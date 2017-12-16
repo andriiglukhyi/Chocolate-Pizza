@@ -1,54 +1,64 @@
-*{outline: dotted 1px orange;
-  width: }
-
-}
-div .right{
-  float:right;
-  display: block;
-}
-header .header{
-  float:left;
-}
-.left {
-  float:left;
-}
-.left h4{
-  font-size: 35;
-  margin: 0px;
-}
-.left p{
-  margin: 0px;
-  font-size: 12px;
+* {
+outline: dotted 1px orange;
 }
 
-.block{
-  width: 960px;
-  margin: 0 auto;
+header section{
+  float: left;
+  width: 300px;
 }
+header div{
+float:right;
+display: block;
+margin-top: 10px;
+}
+header section img {
+  float: left;
+}
+header section h4{
+margin-top: 0px;
+margin-bottom: 0px;
+font-size: 30px;
+}
+header section p {
+margin-top: 0px;
+font-size: 10px;
+font-family:
+}
+header {
+margin-top: 30px;
+margin-bottom: 19px;
+width: 900px;
+display: inline-block;
+}
+.midle{
+  margin-top: 10x;
+  margin-bottom: 20px;
+}
+
 main{
   clear: both;
   width: 900px;
   margin: 30px auto;
 }
-header{
+ main section{
+  display: inline-block;
   width: 900px;
-  margin: 30px auto;
 }
-.right img {
+main section h1 {
+  margin-bottom: 0px;
+  font-size: 35px;
+  margin-top: 10px;
+}
+main section p {
+  margin-top: 0px;
+  float: left;
+}
+main section img, span {
   float:right;
+}
+body{
   display: block;
-}
-.prineter{
-  float:right;
-}
-.h1main{
-  font-size: 30px;
-}
-
-main .mainbox img {
-  float:right;
-}
-main img{
-  margin-top: 35px;
-  margin-bottom: 20px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
