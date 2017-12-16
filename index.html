@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Delicious: cholate pizza</title>
+    <link rel="stylesheet" href="../cookie-stand/reset.css">
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
     <header>
@@ -38,8 +40,8 @@ Continue to process for +/-10 minutes. Pour semi-frozen mixture into a pyrex dis
 at least two hours before serving.</p>
     </article>
     <form class="" action="index.html" >
+      <fieldset class="form_left">
       <fieldset>
-        <fieldset>
           <input type="checkbox" name="milk" value="">
           <label for="milk">1 1/2 cups milk</label>
         </fieldset>
@@ -64,17 +66,17 @@ at least two hours before serving.</p>
           <label for="water">2-4 tbsp water</label>
         </fieldset>
       </fieldset>
+      <fieldset class="form_right">
       <fieldset>
-        <fieldset>
-          <input type="checkbox" name="cream" value="">
+        <input type="checkbox" name="cream" value="" >
           <label for="cream">1 1/2 cups heavy cream</label>
         </fieldset>
         <fieldset>
-          <input type="checkbox" name="gsugar" value="">
-          <label for="gsugar">1/3 granulated sugar</label>
+          <input type="checkbox" name="gsugar" value="" checked>
+            <label for="gsugar">1/3 granulated sugar</label>
         </fieldset>
         <fieldset>
-          <input type="checkbox" name="yolks" value="">
+          <input type="checkbox" name="yolks" value="" checked>
           <label for="yolks">2 egg yolks</label>
         </fieldset>
         <fieldset>
@@ -85,13 +87,13 @@ at least two hours before serving.</p>
           <input type="checkbox" name="butter" value="">
           <label for="butter">2 tbsp butter</label>
         </fieldset>
-        <fieldset>
+        <fieldset class="pecans">
           <input type="checkbox" name="pecans" value="">
-          <label for="pecans">1 cup honey roasted pecans, roughly chopped</label>
+          <label for="pecans"><p>1 cup honey roasted pecans, roughly</p> <p>chopped</p></label>
         </fieldset>
       </fieldset>
     </form>
-    <div class="">
+    <div class="about_author">
       <!-- author blurb-->
       <img src="https://raw.githubusercontent.com/codefellows/seattle-201d29/master/10-chocolate_pizza/lab-assets/van-pic.png" alt="">
       <h3>Vanessa Stevenson</h3>
@@ -100,15 +102,11 @@ at least two hours before serving.</p>
     </div>
 
     <footer>
-      <div class="">
-      </div>
-      <div class="">
-
+      <div class="top_left_border">
+        
       </div>
       <img src="https://raw.githubusercontent.com/codefellows/seattle-201d29/master/10-chocolate_pizza/lab-assets/small-logo.png" alt="">
-      <div class="">
-      </div>
-      <div class="">
+      <div class="top_right_border">
 
       </div>
       <p>Delicious © 2013 • All Rights Reserved.</p>
